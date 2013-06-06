@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: examples
 ---
   <h3>Pueblos - Partidos Políticos en el poder (2012)</h3>
 <div id = 'partidos-map'>
@@ -7,7 +7,7 @@ layout: default
 </div>
 <script type = 'text/javascript'>
   var node = document.getElementById("partidos-map");
-  d3.json("data/munidata.json", function(data){
+  d3.json("../data/munidata.json", function(data){
     var party_datamap = {};
     data.forEach(function(pueblo){
       //get id of pueblo with leading 0s.
@@ -25,7 +25,7 @@ layout: default
 {% highlight js linenos %}
 // change the argument to match your id
 var node = document.getElementById("partidos-map");
-d3.json("data/munidata.json", function(data){
+d3.json("../data/munidata.json", function(data){
   var party_datamap = {};
   data.forEach(function(pueblo){
     //get id of pueblo with leading 0s.

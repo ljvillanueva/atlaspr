@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: examples
 examples:
   - zoom
   - todos
@@ -15,7 +15,7 @@ examples:
 <div id = "examples">
   {% for example in page.examples %}
    <a href = "{{ example }}.html">
-    <img style = 'width: 320px' src = "./images/{{ example }}.png">
+    <img style = 'width: 320px' src = "../images/{{ example }}.png">
   </a>
   {% endfor %}
 </div>

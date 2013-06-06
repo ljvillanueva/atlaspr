@@ -1,12 +1,12 @@
 ---
-layout: default
+layout: examples
 ---
 <h3>Pueblos - Población en el 2012</h3>
 <div id = 'poblacion-map'>
 </div>
 <script type = 'text/javascript'>
   var node = document.getElementById("poblacion-map");
-  d3.json("data/munidata.json", function(data){
+  d3.json("../data/munidata.json", function(data){
     var pop_datamap = {};
     //use FIPS code as key
     data.forEach(function(pueblo){
@@ -24,7 +24,7 @@ layout: default
 {% highlight js linenos %}
 // change the argument to match your id
 var node = document.getElementById("poblacion-map");
-d3.json("data/munidata.json", function(data){
+d3.json("../data/munidata.json", function(data){
   var pop_datamap = {};
   //use FIPS code as key
   data.forEach(function(pueblo){
