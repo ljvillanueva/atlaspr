@@ -1,13 +1,9 @@
 AtlasPR
 =====
 
-Free, open, interactive, detailed maps of Puerto Rico for your web applications.
+Free, open, interactive, detailed maps of Puerto Rico for your web applications. Visit our [homepage](http://miguelrios.github.io/atlaspr) and [examples page](http://miguelrios.github.io/atlaspr/examples.html).
 
 ![AtlasPR](https://raw.github.com/miguelrios/atlaspr/master/images/blank.png)
-
-### Notice
-
-Documentation for this project, including basic how tos is in progress. Visit our [homepage](http://miguelrios.github.io/atlaspr) and [examples page](http://miguelrios.github.io/atlaspr/examples.html) in the meantime. 
 
 ### Usage
 1. [Download the library](https://github.com/commonwealth-of-puerto-rico/atlaspr/archive/master.zip).
@@ -36,7 +32,7 @@ Documentation for this project, including basic how tos is in progress. Visit ou
 8. Go crazy!
 
 ### API Documentation
-AtlasPR makes it easy to developers who want to color maps of Puerto Rico by pueblo or barrio; add markers and other functionality. We are in the process of documenting all the possible options. In the meantime, visit the [examples page](http://miguelrios.github.io/atlaspr/examples.html) to see what's possible.
+Documentation for AtlasPR lives [in our website](http://miguelrios.github.io/atlaspr/docs/atlaspr_doc.html). 
 
 ### Compatibility
 AtlasPR does not work in old browsers, particularly in Internet Explorer 8 and less. This is because we use SVG to render tiles. SVG is a web standard for scalable web graphics, and it's implemented in every modern browser.
